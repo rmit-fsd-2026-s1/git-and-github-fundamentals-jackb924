@@ -1,11 +1,13 @@
 body {
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .title {
     text-align: center;
     font-size: 30px;
+    margin-top: 30px;
 }
 
 .form-div {
@@ -13,7 +15,6 @@ body {
     flex: 1fr 1fr;
     flex-direction: column;
     height: 300px;
-    background-color: grey;
 }
 
 .first-name-container, .last-name-container, .email-container, .password-container, .submit-container {
