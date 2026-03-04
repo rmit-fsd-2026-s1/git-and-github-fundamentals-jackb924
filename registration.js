@@ -17,6 +17,7 @@ function submitCheck() {
     if (fNameValue && lNameValue && emailInputValue && passwordValue) {
         submitButton.innerText = 'Submitted';
         successElement.innerText = 'Success!';
+        didSucceed = true;
     }
     else {
         submitButton.innerText = 'Try Again';
