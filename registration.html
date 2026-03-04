@@ -11,30 +11,64 @@
 
     <div class="title div"> User Registration</div>
 
-    <div class="form-div">
+    <div class="form-container">
 
-        <div class="first-name-container">
-            <input class="first-name-input" placeholder="First name">
-        </div>
+        <div class="form-info-div">
 
-        <div class="last-name-container">
-            <input class="last-name-input" placeholder="Last name">
-        </div>
+            <div class="first-name-container">
+                <p> First Name:</p>
+            </div>
 
-        <div class="email-container">
-            <input class="email-input" placeholder="Email address">
-        </div>
+            <div class="last-name-container">
+                <p> Last Name:</p>
+            </div>
 
-        <div class="password-container">
-            <input class="password-input" placeholder="Enter a password">
-        </div>
+            <div class="email-container">
+                <p>Email Address:</p>
+            </div>
 
-        <div class="submit-container">
-            <button onclick="submitCheck();" class="submit-button"> Submit</button>
+            <div class="dob-container">
+                <p> Date of Birth:</p>
+            </div>
+
+            <div class="password-container">
+                <p> Password:</p>
+            </div>
+
+            <div class="success-container">
+            </div>
+
         </div>
         
 
+        <div class="form-div">
+
+            <div class="first-input-container">
+                <input class="first-name-input" placeholder="First name">
+            </div>
+
+            <div class="last-input-container">
+                <input class="last-name-input" placeholder="Last name">
+            </div>
+            
+            <div class="email-input-container">
+                <input class="email-input" placeholder="Email address">
+            </div>
+
+            <div class="dob-input-container">
+                <input class="dob-input" type="date">
+            </div>
+
+            <div class="password-input-container">
+                <input class="password-input" placeholder="Enter a password">
+            </div>
+
+            <div class="submit-input-container">
+                <button onclick="submitCheck();" class="submit-button"> Submit</button>
+            </div>
+        </div>
     </div>
+    
 
     <script src="registration.js"></script>
     

@@ -10,17 +10,37 @@ body {
     margin-top: 30px;
 }
 
-.form-div {
+.form-container {
     display: flex;
-    flex: 1fr 1fr;
-    flex-direction: column;
-    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
 }
 
-.first-name-container, .last-name-container, .email-container, .password-container, .submit-container {
+
+.form-div, .form-info-div {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    flex-direction: column;
 }
+
+.form-div {
+    margin-left: 10px;
+}
+
+.success-container {
+    margin-top: 12px;
+}
+.first-name-container, .last-name-container, .email-container, .dob-container, .password-container, .success-container {
+}
+
+.first-input-container {
+    margin-top: 15px;
+}
+.last-input-container, .email-input-container, .dob-input-container, .password-input-container, .submit-input-container {
+    margin-top: 28px;
+}
+
+
+
 
 /* .first-name-input, .last-name-input  */
